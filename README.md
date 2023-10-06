@@ -5,8 +5,9 @@
  - docker compose up -d
  - docker compose exec app bash
  - composer update
- - mv .emv.loc .env
+ - mv .env.loc .env
  - php artisan migrate
  - npm install (на хост-машине)
  - npm run build
  - добавляеи notes.loc в хост файл ОС
+ - для регистрации подойдёт любой email (верификация не предусмотрена)
